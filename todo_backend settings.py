@@ -1,3 +1,9 @@
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+    'api',
+]
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
